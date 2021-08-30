@@ -1,0 +1,11 @@
+@mixin flexCenter{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+@mixin overflowText{
+    overflow: $overflow;
+    text-align: $texta;
+}
