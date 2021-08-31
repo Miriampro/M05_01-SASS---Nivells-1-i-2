@@ -1,8 +1,8 @@
 @mixin flexCenter{
-    height: 100vh;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    height: $height1;
+    justify-content: $justifycontent;
+    display: $display1;
+    align-items: $alignit;
 }
 
 @mixin overflowText{
